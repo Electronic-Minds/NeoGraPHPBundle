@@ -1,0 +1,6 @@
+parameters:
+  neo4j.url: http://10.13.110.114:7474/db/data/
+services:
+  neo4j:
+    class: ElectronicMinds\NeoGraPHPBundle\Neo4j
+    arguments: [%neo4j.url%]
