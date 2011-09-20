@@ -3,7 +3,7 @@ NeoGraPHP Symfony2 Bundle
 
 Installation
 ------------
-1. First of all you need to get the NeoGraPHP Neo4j API from [github]{https://github.com/Electronic-Minds/NeoGraPHP}.
+1. First of all you need to get the [NeoGraPHP Neo4j API](https://github.com/Electronic-Minds/NeoGraPHP) from github.
 2. Create a folder named "neo4j" in the vendor/ directory and put all files from NeoGraPHP into it.
 3. Extract this project in vendor/bundles/ElectronicMinds/
 4. Register the Bundle in your AppKernel.php in app/ with "new ElectronicMinds\NeoGraPHPBundle\ElectronicMindsNeoGraPHPBundle()"
